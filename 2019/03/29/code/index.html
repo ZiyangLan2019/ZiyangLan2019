@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html>
+<head><meta name="generator" content="Hexo 3.8.0">
+  <meta charset="utf-8">
+  
+  <title>coding presentation | Lam</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+  
+  
+  
+  <meta name="description" content="1. Things that you may wan to search forIf you want to know the share price：  The current price spot :  2.45 exercise price strike : 2.50 maturity maturity : 0.25 Risk-free interest rate r : 0.05 vola">
+<meta property="og:type" content="article">
+<meta property="og:title" content="CODING PRESENTATION">
+<meta property="og:url" content="https://ziyanglan2019.github.io/2019/03/29/code/index.html">
+<meta property="og:site_name" content="Lam">
+<meta property="og:description" content="1. Things that you may wan to search forIf you want to know the share price：  The current price spot :  2.45 exercise price strike : 2.50 maturity maturity : 0.25 Risk-free interest rate r : 0.05 vola">
+<meta property="og:locale" content="default">
+<meta property="og:updated_time" content="2019-03-29T07:44:14.286Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="CODING PRESENTATION">
+<meta name="twitter:description" content="1. Things that you may wan to search forIf you want to know the share price：  The current price spot :  2.45 exercise price strike : 2.50 maturity maturity : 0.25 Risk-free interest rate r : 0.05 vola">
+  
+    <link rel="alternate" href="/atom.xml" title="Lam" type="application/atom+xml">
+  
+
+  
+
+  <link rel="icon" href="/css/images/mylogo.jpg">
+  <link rel="apple-touch-icon" href="/css/images/mylogo.jpg">
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Montserrat:700" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic" rel="stylesheet" type="text/css">
+  <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+  <style type="text/css">
+    @font-face{font-family:futura-pt; src:url("css/fonts/FuturaPTBold.otf") format("woff");font-weight:500;font-style:normal;}
+    @font-face{font-family:futura-pt-light; src:url("css/fonts/FuturaPTBook.otf") format("woff");font-weight:lighter;font-style:normal;}
+    @font-face{font-family:futura-pt-italic; src:url("css/fonts/FuturaPTBookOblique.otf") format("woff");font-weight:400;font-style:italic;}
+}
+
+  </style>
+  <link rel="stylesheet" href="/css/style.css">
+
+  <script src="/js/jquery-3.1.1.min.js"></script>
+  <script src="/js/bootstrap.js"></script>
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="/css/bootstrap.css">
+
+  
+    <link rel="stylesheet" href="/css/dialog.css">
+  
+
+  
+
+  
+    <link rel="stylesheet" href="/css/header-post.css">
+  
+
+  
+  
+  
+
+</head>
+</html>
+
+
+  <body data-spy="scroll" data-target="#toc" data-offset="50">
+
+
+  
+  <div id="container">
+    <div id="wrap">
+      
+        <header>
+
+    <div id="allheader" class="navbar navbar-default navbar-static-top" role="navigation">
+        <div class="navbar-inner">
+          
+          <div class="container"> 
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+
+            
+              <a class="brand" style="border-width: 0;">
+                <p>Lam</p>
+              </a>
+            
+            
+            <div class="navbar-collapse collapse">
+              <ul class="hnav navbar-nav">
+                
+                  <li> <a class="main-nav-link" href="/">Home</a> </li>
+                
+                  <li> <a class="main-nav-link" href="/archives">Archives</a> </li>
+                
+                  <li> <a class="main-nav-link" href="/about">About</a> </li>
+                
+                  <li><div id="search-form-wrap">
+
+    <form class="search-form">
+        <input type="text" class="ins-search-input search-form-input" placeholder>
+        <button type="submit" class="search-form-submit"></button>
+    </form>
+    <div class="ins-search">
+    <div class="ins-search-mask"></div>
+    <div class="ins-search-container">
+        <div class="ins-input-wrapper">
+            <input type="text" class="ins-search-input" placeholder="Type something...">
+            <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
+        </div>
+        <div class="ins-section-wrapper">
+            <div class="ins-section-container"></div>
+        </div>
+    </div>
+</div>
+<script>
+(function (window) {
+    var INSIGHT_CONFIG = {
+        TRANSLATION: {
+            POSTS: 'Posts',
+            PAGES: 'Pages',
+            CATEGORIES: 'Categories',
+            TAGS: 'Tags',
+            UNTITLED: '(Untitled)',
+        },
+        ROOT_URL: '/',
+        CONTENT_URL: '/content.json',
+    };
+    window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+})(window);
+</script>
+<script src="/js/insight.js"></script>
+
+</div></li>
+            </ul></div>
+          </div>
+                
+      </div>
+    </div>
+
+</header>
+
+
+
+      
+            
+      <div id="content" class="outer">
+        
+          <section id="main" style="float:none;"><article id="post-code" class="article article-type-post" itemscope itemprop="blogPost">
+  <div id="articleInner" class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="thumb" itemprop="name">
+      CODING PRESENTATION
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-meta">
+      
+	<a href="/2019/03/29/code/" class="article-date">
+	  <time datetime="2019-03-29T06:45:26.000Z" itemprop="datePublished">2019-03-29</time>
+	</a>
+
+      
+      
+      
+
+    </div>
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h3 id="1-Things-that-you-may-wan-to-search-for"><a href="#1-Things-that-you-may-wan-to-search-for" class="headerlink" title="1. Things that you may wan to search for"></a>1. Things that you may wan to search for</h3><p><strong>If you want to know the share price：</strong></p>
+<ul>
+<li>The current price <code>spot</code> :  2.45</li>
+<li>exercise price <code>strike</code> : 2.50</li>
+<li>maturity <code>maturity</code> : 0.25</li>
+<li>Risk-free interest rate <code>r</code> : 0.05</li>
+<li>volatility <code>vol</code> : 0.25</li>
+</ul>
+<p><strong>There is a classic black-scholes  formula for pricing such simple European pricing options:</strong></p>
+<blockquote>
+<p>\begin{align<em>}<br>\text{Call}(S, K, r, \tau, \sigma) &amp; =  \ S \text{N}(d_1) - K\text{e}^{-r\tau}\text{N}(d_2), \\[5pt]<br>d_1 &amp; =  \frac{\text{ln}(S/K) + (r + \frac{1}{2}\sigma^2)\tau}{\sigma \sqrt{\tau}}, \\[5pt]<br>d_2 &amp; =  d_1 - \sigma \sqrt{\tau}. \\[5pt]<br>\end{align</em>}</p>
+</blockquote>
+<p><strong>Where S is the underlying price, K is the strike price,  r is the risk-free interest rate, and \tau= t-t is the remaining maturity time. \text{N}(x)is the cumulative probability density function of the standard normal distribution. \text{Call}(S, K, r, \tau, \sigma)is the price of a Call option.</strong><br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Parameters</span></span><br><span class="line">spot = <span class="number">2.45</span></span><br><span class="line">strike = <span class="number">2.50</span></span><br><span class="line">maturity = <span class="number">0.25</span></span><br><span class="line">r = <span class="number">0.05</span></span><br><span class="line">vol = <span class="number">0.25</span></span><br></pre></td></tr></table></figure></p>
+<p><strong>To observe the above formula, we need to use some mathematical functions and divide it into two parts:</strong><br>* <code>log</code>,<code>sqrt</code>,<code>exp</code>，these three functions could find it using the liabrary<code>math</code><br>* Standard normal distribution of the cumulative probability density function, could use scipy library’s “stats.norm.cdf” function.<br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Option pricing formula based on Black - Scholes formula</span></span><br><span class="line"><span class="keyword">from</span> math <span class="keyword">import</span> log, sqrt, exp</span><br><span class="line"><span class="keyword">from</span> scipy.stats <span class="keyword">import</span> norm</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">call_option_pricer</span><span class="params">(spot, strike, maturity, r, vol)</span>:</span></span><br><span class="line"></span><br><span class="line">    d1 = (log(spot/strike) + (r + <span class="number">0.5</span> * vol *vol) * maturity) / vol / sqrt(maturity)</span><br><span class="line">    d2 = d1 - vol * sqrt(maturity)</span><br><span class="line"></span><br><span class="line">    price = spot * norm.cdf(d1) - strike * exp(-r*maturity) * norm.cdf(d2)</span><br><span class="line">    <span class="keyword">return</span> price</span><br></pre></td></tr></table></figure></p>
+<p><strong>You can use this function to calculate the result of the option:</strong><br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">print</span> <span class="string">'The option price : %.4f'</span> % call_option_pricer(spot, strike, maturity, r, vol)</span><br></pre></td></tr></table></figure></p>
+<h3 id="2-Use-numpy-to-speed-up-batch-computation"><a href="#2-Use-numpy-to-speed-up-batch-computation" class="headerlink" title="2. Use numpy to speed up batch computation"></a>2. Use numpy to speed up batch computation</h3><p><strong>Most of the time, you don’t just care about the price of an option, but you also care about the price of a portfolio (thousands of options). So you want to know, as the number of options increases, how much does the computation time increase?</strong>  </p>
+<h4 id="2-1-Use-loops"><a href="#2-1-Use-loops" class="headerlink" title="2.1 Use loops"></a>2.1 Use loops</h4>  <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> time</span><br><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</span><br><span class="line"></span><br><span class="line">portfolioSize = range(<span class="number">1</span>, <span class="number">10000</span>, <span class="number">500</span>)</span><br><span class="line">timeSpent = []</span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> size <span class="keyword">in</span> portfolioSize:</span><br><span class="line">  now = time.time()</span><br><span class="line">  strikes = np.linspace(<span class="number">2.0</span>,<span class="number">3.0</span>,size)</span><br><span class="line">  <span class="keyword">for</span> i <span class="keyword">in</span> range(size):</span><br><span class="line">      res = call_option_pricer(spot, strikes[i], maturity, r, vol)</span><br><span class="line">  timeSpent.append(time.time() - now)</span><br><span class="line">```  </span><br><span class="line">```python</span><br><span class="line"><span class="keyword">from</span> matplotlib <span class="keyword">import</span> pylab</span><br><span class="line"><span class="keyword">import</span> seaborn <span class="keyword">as</span> sns</span><br><span class="line"><span class="keyword">from</span> CAL.PyCAL <span class="keyword">import</span> *</span><br><span class="line">font.set_size(<span class="number">15</span>)</span><br><span class="line">sns.set(style=<span class="string">"ticks"</span>)</span><br><span class="line">pylab.figure(figsize = (<span class="number">12</span>,<span class="number">8</span>))</span><br><span class="line">pylab.bar(portfolioSize, timeSpent, color = <span class="string">'r'</span>, width =<span class="number">300</span>)</span><br><span class="line">pylab.grid(<span class="literal">True</span>)</span><br><span class="line">pylab.title(u’time it takes <span class="keyword">for</span> the option calculation（unit：second）<span class="string">', fontproperties = font, fontsize = 18)</span></span><br><span class="line"><span class="string">pylab.ylabel(u'</span>time（s)<span class="string">', fontproperties = font, fontsize = 15)</span></span><br><span class="line"><span class="string">pylab.xlabel(u'</span>Number of combinations<span class="string">', fontproperties = font, fontsize = 15)</span></span><br></pre></td></tr></table></figure>
+<h4 id="2-2-calculation-using-the-numpy-vector"><a href="#2-2-calculation-using-the-numpy-vector" class="headerlink" title="2.2 calculation using the numpy vector"></a>2.2 calculation using the numpy vector</h4><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">sample = np.linspace(<span class="number">1.0</span>,<span class="number">100.0</span>,<span class="number">5</span>)</span><br><span class="line">np.exp(sample)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment"># use “ numpy “ mathematical function, can override the original formula “call_option_pricer “, making it accept vector parameter.</span></span><br><span class="line"><span class="comment"># In[ ]:</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Rewrite the black-scholes formula using numpy's vector function</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">call_option_pricer_nunmpy</span><span class="params">(spot, strike, maturity, r, vol)</span>:</span></span><br><span class="line"></span><br><span class="line">    d1 = (np.log(spot/strike) + (r + <span class="number">0.5</span> * vol *vol) * maturity) / vol / np.sqrt(maturity)</span><br><span class="line">    d2 = d1 - vol * np.sqrt(maturity)</span><br><span class="line"></span><br><span class="line">    price = spot * norm.cdf(d1) - strike * np.exp(-r*maturity) * norm.cdf(d2)</span><br><span class="line">    <span class="keyword">return</span> price</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">timeSpentNumpy = []</span><br><span class="line"><span class="keyword">for</span> size <span class="keyword">in</span> portfolioSize:</span><br><span class="line">    now = time.time()</span><br><span class="line">    strikes = np.linspace(<span class="number">2.0</span>,<span class="number">3.0</span>, size)</span><br><span class="line">    res = call_option_pricer_nunmpy(spot, strikes, maturity, r, vol)</span><br><span class="line">    timeSpentNumpy.append(time.time() - now)</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">pylab.figure(figsize = (<span class="number">12</span>,<span class="number">8</span>))</span><br><span class="line">pylab.bar(portfolioSize, timeSpentNumpy, color = <span class="string">'r'</span>, width = <span class="number">300</span>)</span><br><span class="line">pylab.grid(<span class="literal">True</span>)</span><br><span class="line">pylab.title(<span class="string">u'time it takes for the option calculation（unit：second）-Numpy accelerated version’,</span></span><br><span class="line"><span class="string"> fontproperties = font, fontsize = 18)</span></span><br><span class="line"><span class="string">pylab.ylabel(u'</span>time（s)<span class="string">', fontproperties = font, fontsize = 15)</span></span><br><span class="line"><span class="string">pylab.xlabel(u’Number of combinations'</span>, fontproperties = font, fontsize = <span class="number">15</span>)</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">fig = pylab.figure(figsize = (<span class="number">12</span>,<span class="number">8</span>))</span><br><span class="line">ax = fig.gca()</span><br><span class="line">pylab.plot(portfolioSize, np.log10(timeSpent), portfolioSize, np.log(timeSpentNumpy))</span><br><span class="line">pylab.grid(<span class="literal">True</span>)</span><br><span class="line"><span class="keyword">from</span> matplotlib.ticker <span class="keyword">import</span> FuncFormatter</span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">millions</span><span class="params">(x, pos)</span>:</span></span><br><span class="line">    <span class="string">'The two args are the value and tick position'</span></span><br><span class="line">    <span class="keyword">return</span> <span class="string">'$10^&#123;%.0f&#125;$'</span> % (x)</span><br><span class="line">formatter = FuncFormatter(millions)</span><br><span class="line">ax.yaxis.set_major_formatter(formatter)</span><br><span class="line">pylab.title(<span class="string">u'time it takes for the option calculation（unit：second）'</span>,</span><br><span class="line">fontproperties = font, fontsize = <span class="number">18</span>)</span><br><span class="line">pylab.legend([<span class="string">u'Loop computations'</span>, u’numpy Vector accelerate<span class="string">'], prop = font, loc = '</span>upper cente<span class="string">r', ncol = 2)</span></span><br><span class="line"><span class="string">pylab.ylabel(u’time（second)'</span>, fontproperties = font, fontsize = <span class="number">15</span>)</span><br><span class="line">pylab.xlabel(u’Number of combinations<span class="string">', fontproperties = font, fontsize = 15)</span></span><br></pre></td></tr></table></figure>
+<h3 id="3-Scipy-is-used-for-simulation"><a href="#3-Scipy-is-used-for-simulation" class="headerlink" title="3. Scipy is used for simulation"></a>3. Scipy is used for simulation</h3><p><strong>One of the methods for calculating option prices is called Monte Carlo method. This method USES random sampling to simulate the random walk of the underlying stock price and calculate the option price (future expectation). Suppose the stock price meets the following random search:</strong></p>
+<blockquote>
+<p>begin{align<em>}<br>text{d}S = rS\text{d}t + \sigma S \text{d}W(t).<br>end{align</em>}</p>
+<p>The simulation method can simulate the stock price at maturity</p>
+<p>begin{align<em>}<br>S_T = S_0 \text{exp}((r - \frac{1}{2}\sigma^2)T + z\sigma\sqrt{T})<br>end{align</em>}</p>
+</blockquote>
+<p><strong>So z here is a random number with a standard normal distribution. In this way, the final option price can be calculated:</strong></p>
+<blockquote>
+<p> text{price} = \exp(-rT)\sum_{i = 1}^{N} \text{max}(S_{T,i} - K, 0)</p>
+</blockquote>
+<p><strong>The standard normal distribution random number, can easily turn to “ Scipy “ library:</strong><br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> scipy</span><br><span class="line">scipy.random.randn(<span class="number">10</span>)</span><br></pre></td></tr></table></figure></p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">pylab.figure(figsize = (<span class="number">12</span>,<span class="number">8</span>))</span><br><span class="line">randomSeries = scipy.random.randn(<span class="number">1000</span>)</span><br><span class="line">pylab.plot(randomSeries)</span><br><span class="line"><span class="keyword">print</span> u’ mean value：%<span class="number">.4</span><span class="string">f' % randomSeries.mean()</span></span><br><span class="line"><span class="string">print u’ standard deviation：%.4f'</span> % randomSeries.std()</span><br></pre></td></tr></table></figure>
+<p><strong> combination <code></code> scipy <code></code> <code></code> numpy <code></code> can define option pricing based on the monte carlo algorithm.</strong><br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Monte carlo method for option price calculation</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">call_option_pricer_monte_carlo</span><span class="params">(spot, strike, maturity, r, vol, numOfPath = <span class="number">5000</span>)</span>:</span></span><br><span class="line">    randomSeries = scipy.random.randn(numOfPath)</span><br><span class="line">    s_t = spot * np.exp((r - <span class="number">0.5</span> * vol * vol) * maturity + randomSeries * vol * sqrt(maturity))</span><br><span class="line">    sumValue = np.maximum(s_t - strike, <span class="number">0.0</span>).sum()</span><br><span class="line">    price = exp(-r*maturity) * sumValue / numOfPath</span><br><span class="line">    <span class="keyword">return</span> price</span><br></pre></td></tr></table></figure></p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">print</span> <span class="string">'option price calculation（monte_carlo） : %.4f'</span> %call_option_pricer_monte_carlo(spot, strike, maturity, r, vol)</span><br></pre></td></tr></table></figure>
+<p><strong>The experiment here ranges from 1000 simulation to 50000 simulation results, with each simulation running 100 times for the same number of times</strong><br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">pathScenario = range(<span class="number">1000</span>, <span class="number">50000</span>, <span class="number">1000</span>)</span><br><span class="line">numberOfTrials = <span class="number">100</span></span><br><span class="line"></span><br><span class="line">confidenceIntervalUpper = []</span><br><span class="line">confidenceIntervalLower = []</span><br><span class="line">means = []</span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> scenario <span class="keyword">in</span> pathScenario:</span><br><span class="line">    res = np.zeros(numberOfTrials)</span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> range(numberOfTrials):</span><br><span class="line">        res[i] = call_option_pricer_monte_carlo(spot, strike, maturity, r, vol, numOfPath = scenario)</span><br><span class="line">    means.append(res.mean())</span><br><span class="line">    confidenceIntervalUpper.append(res.mean() + <span class="number">1.96</span>*res.std())</span><br><span class="line">    confidenceIntervalLower.append(res.mean() - <span class="number">1.96</span>*res.std())</span><br></pre></td></tr></table></figure></p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">pylab.figure(figsize = (<span class="number">12</span>,<span class="number">8</span>))</span><br><span class="line">tabel = np.array([means,confidenceIntervalUpper,confidenceIntervalLower]).T</span><br><span class="line">pylab.plot(pathScenario, tabel)</span><br><span class="line">pylab.title(<span class="string">u'Option calculation monte carlo simulation'</span>, fontproperties = font, fontsize = <span class="number">18</span>)</span><br><span class="line">pylab.legend([u’mean value<span class="string">', u'</span><span class="number">95</span>%Upper bound of confidence interval<span class="string">', u'</span><span class="number">95</span>%The lower bound of the confidence interval<span class="string">'], prop = font)</span></span><br><span class="line"><span class="string">pylab.ylabel(u'</span>pirce<span class="string">', fontproperties = font, fontsize = 15)</span></span><br><span class="line"><span class="string">pylab.xlabel(u'</span>Simulation times<span class="string">', fontproperties = font, fontsize = 15)</span></span><br><span class="line"><span class="string">pylab.grid(True)</span></span><br></pre></td></tr></table></figure>
+<h3 id="4-Calculate-implied-volatility"><a href="#4-Calculate-implied-volatility" class="headerlink" title="4. Calculate implied volatility"></a>4. Calculate implied volatility</h3><p><strong>As the most important parameter of BSM option pricing, volatility $\sigma$is the volatility of the underlying asset itself. What we are more concerned about is the market’s estimate of Volatility reflected in the quotation at that time, which is called Implied Volatility. The process here is actually in the BSM formula, assuming that the other four parameters are determined, the option price is known, and the inverse solution is \sigma:</strong></p>
+<blockquote>
+<p> \begin{align<em>}<br>     f(\sigma) &amp;= \text{Call}(S, K, r, \tau, \sigma) =S \text{N}(d_1) - K\text{e}^{-r\tau}\text{N}(d_2), &gt;\\[5pt]<br>     &amp;\text{IF} \ f(\sigma) = V, \text{Then}\ \sigma = f^{-1}(V) \  ?<br> \end{align</em>}</p>
+</blockquote>
+<p><strong>For European call options, the price is a monotone increasing function of volatility, so the solution process is stable and feasible. In general, it can be implemented like trial and error. In <code></code> scipy <code></code> already many efficient algorithms can be used, such as Brent algorithm:</strong><br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> scipy.optimize <span class="keyword">import</span> brentq</span><br><span class="line"></span><br><span class="line"><span class="comment"># Target function, the target price is determined by target</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">cost_function</span>:</span></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">__init__</span><span class="params">(self, target)</span>:</span></span><br><span class="line">        self.targetValue = target</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">__call__</span><span class="params">(self, x)</span>:</span></span><br><span class="line">        <span class="keyword">return</span> call_option_pricer(spot, strike, maturity, r, x) - self.targetValue</span><br><span class="line"></span><br><span class="line"><span class="comment"># Suppose you use the initial value of vol as the target</span></span><br><span class="line"></span><br><span class="line">target = call_option_pricer(spot, strike, maturity, r, vol)</span><br><span class="line">cost_sampel = cost_function(target)</span><br><span class="line"></span><br><span class="line"><span class="comment"># Use the Brent algorithm</span></span><br><span class="line">impliedVol = brentq(cost_sampel, <span class="number">0.01</span>, <span class="number">0.5</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">print</span> <span class="string">u'True volatility： %.2f'</span> % (vol*<span class="number">100</span>,) + <span class="string">'%'</span></span><br><span class="line"><span class="keyword">print</span> <span class="string">u'Implied volatility： %.2f'</span> % (impliedVol*<span class="number">100</span>,) + <span class="string">'%'</span></span><br></pre></td></tr></table></figure></p>
+<p><strong>First, import the module you are using:</strong><br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</span><br><span class="line"><span class="keyword">import</span> pandas <span class="keyword">as</span> pd</span><br><span class="line"><span class="keyword">from</span> pandas <span class="keyword">import</span> Series, DataFrame</span><br></pre></td></tr></table></figure></p>
+<p><strong>To see the data more easily, set the width of the output screen</strong><br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pd.set_option(<span class="string">'display.width'</span>, <span class="number">200</span>)</span><br></pre></td></tr></table></figure></p>
+<p><strong>一、Other ways to create data</strong><br><strong>The creation of data structures is more than just the standard form introduced in the previous article. For example, you can create a Series with a date element:</strong><br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">dates = pd.date_range(<span class="string">'20150101'</span>, periods=<span class="number">5</span>)</span><br><span class="line"><span class="keyword">print</span> dates</span><br></pre></td></tr></table></figure></p>
+<p><strong>Assign this date Series as an index to a DataFrame</strong><br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">df = pd.DataFrame(np.random.randn(<span class="number">5</span>, <span class="number">4</span>),index=dates,columns=list(<span class="string">'ABCD'</span>))</span><br><span class="line"><span class="keyword">print</span> df</span><br></pre></td></tr></table></figure></p>
+<p><strong>Any object that can be converted into Series can be used to create DataFrame:</strong><br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">df2 = pd.DataFrame(&#123; <span class="string">'A'</span> : <span class="number">1.</span>, <span class="string">'B'</span>: pd.Timestamp(<span class="string">'20150214'</span>), <span class="string">'C'</span>: pd.Series(<span class="number">1.6</span>,index=list(range(<span class="number">4</span>)),dtype=<span class="string">'float64'</span>), <span class="string">'D'</span> : np.array([<span class="number">4</span>] * <span class="number">4</span>, dtype=<span class="string">'int64'</span>), <span class="string">'E'</span> : <span class="string">'hello pandas!'</span> &#125;)</span><br><span class="line"><span class="keyword">print</span> df2</span><br></pre></td></tr></table></figure></p>
+<h5 id="The-view-of-data"><a href="#The-view-of-data" class="headerlink" title="The view of data"></a>The view of data</h5><p><strong>In most cases, the data is not generated by the person who analyzed it, but is obtained through data interfaces, external files, or other means. Here, a sample of data is obtained through the data interface of the quantitative laboratory:</strong><br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">stock_list = [<span class="string">'000001.XSHE'</span>, <span class="string">'000002.XSHE'</span>, <span class="string">'000568.XSHE'</span>, <span class="string">'000625.XSHE'</span>, <span class="string">'000768.XSHE'</span>, <span class="string">'600028.XSHG'</span>, <span class="string">'600030.XSHG'</span>, <span class="string">'601111.XSHG'</span>, <span class="string">'601390.XSHG'</span>, <span class="string">'601998.XSHG'</span>]</span><br><span class="line">raw_data = DataAPI.MktEqudGet(secID=stock_list, beginDate=<span class="string">'20150101'</span>, endDate=<span class="string">'20150131'</span>, pandas=<span class="string">'1'</span>)</span><br><span class="line">df = raw_data[[<span class="string">'secID'</span>, <span class="string">'tradeDate'</span>, <span class="string">'secShortName'</span>, <span class="string">'openPrice'</span>, <span class="string">'highestPrice'</span>, <span class="string">'lowestPrice'</span>, <span class="string">'closePrice'</span>, <span class="string">'turnoverVol'</span>]]</span><br></pre></td></tr></table></figure></p>
+<p><strong>The above code obtains the daily quotation information of ten stocks in all trading days of January 2015. First, let’s take a look at the data size:</strong><br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">print</span> <span class="string">"Head of this DataFrame:"</span></span><br><span class="line"><span class="keyword">print</span> df.head()</span><br><span class="line"><span class="keyword">print</span> <span class="string">"Tail of this DataFrame:"</span></span><br><span class="line"><span class="keyword">print</span> df.tail(<span class="number">3</span>)</span><br></pre></td></tr></table></figure></p>
+<p><strong>Describe () provides statistical information about the pure numerical data in the dataframe:</strong><br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">print</span> df.describe()</span><br></pre></td></tr></table></figure></p>
+<p><strong>Sorting the data will facilitate observation of the data, and DataFrame provides two forms of sorting. Dataframe.sort_index can be called, and axis=0 means sort by index (row name), axis=1 means sort by column name, and can be specified in ascending or descending order:</strong><br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">print</span> <span class="string">"Order by column names, descending:"</span></span><br><span class="line"><span class="keyword">print</span> df.sort_index(axis=<span class="number">1</span>, ascending=<span class="literal">False</span>).head()</span><br></pre></td></tr></table></figure></p>
+<p><strong>The second sort is sorted by value, you can specify the column name and sort method, the default is ascending sort:</strong><br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">print</span> <span class="string">"Order by column value, ascending:"</span></span><br><span class="line"><span class="keyword">print</span> df.sort(columns=<span class="string">'tradeDate'</span>).head()</span><br><span class="line"><span class="keyword">print</span> <span class="string">"Order by multiple columns value:"</span></span><br><span class="line">df = df.sort(columns=[<span class="string">'tradeDate'</span>, <span class="string">'secID'</span>], ascending=[<span class="literal">False</span>, <span class="literal">True</span>])</span><br><span class="line"><span class="keyword">print</span> df.head()</span><br></pre></td></tr></table></figure></p>
+<h3 id="5-Data-access-and-operation"><a href="#5-Data-access-and-operation" class="headerlink" title="5. Data access and operation"></a>5. Data access and operation</h3><h4 id="5-1-talk-about-data-access"><a href="#5-1-talk-about-data-access" class="headerlink" title="5.1 talk about data access"></a>5.1 talk about data access</h4><p><strong>The previous article has introduced several ways to use loc, iloc, at, iat, ix, and [] to access DataFrame data. Here is another way to use “:” to get partial rows or all columns:</strong><br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">print</span> df.iloc[<span class="number">1</span>:<span class="number">4</span>][:]</span><br></pre></td></tr></table></figure></p>
+<p><strong>The method of using Boolean vector to obtain data introduced in the previous article can be extended to easily filter data. For example, to select data whose closing price is above the mean value:</strong><br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">print</span> df[df.closePrice &gt; df.closePrice.mean()].head()</span><br></pre></td></tr></table></figure></p>
+<p><strong>The # isin() function can easily filter data in the DataFrame:</strong><br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">print</span> df[df[<span class="string">'secID'</span>].isin([<span class="string">'601628.XSHG'</span>, <span class="string">'000001.XSHE'</span>, <span class="string">'600030.XSHG'</span>])].head()</span><br><span class="line"><span class="keyword">print</span> df.shape</span><br></pre></td></tr></table></figure></p>
+<h4 id="5-2-deal-with-missing-data"><a href="#5-2-deal-with-missing-data" class="headerlink" title="5.2 deal with missing data"></a>5.2 deal with missing data</h4><p><strong> On the basis of accessing the data, the data can be changed, for example, some elements can be modified as missing values:</strong><br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">df[<span class="string">'openPrice'</span>][df[<span class="string">'secID'</span>] == <span class="string">'000001.XSHE'</span>] = np.nan</span><br><span class="line">df[<span class="string">'highestPrice'</span>][df[<span class="string">'secID'</span>] == <span class="string">'601111.XSHG'</span>] = np.nan</span><br><span class="line">df[<span class="string">'lowestPrice'</span>][df[<span class="string">'secID'</span>] == <span class="string">'601111.XSHG'</span>] = np.nan</span><br><span class="line">df[<span class="string">'closePrice'</span>][df[<span class="string">'secID'</span>] == <span class="string">'000002.XSHE'</span>] = np.nan</span><br><span class="line">df[<span class="string">'turnoverVol'</span>][df[<span class="string">'secID'</span>] == <span class="string">'601111.XSHG'</span>] = np.nan</span><br><span class="line"><span class="keyword">print</span> df.head(<span class="number">10</span>)</span><br></pre></td></tr></table></figure></p>
+<p><strong>There is likely to be some missing data in the raw data, and as with this sample data, there are several ways to process the missing data. Dataframe. Dropna () is usually used, and dataframe. Dropna () can discard data with nan on a row basis. If you specify how=’all’ (the default is ‘any’), the data is discarded only if the whole row is nan; If thresh is specified, it is reserved when the number of non-missing columns in a row exceeds the specified value. To specify according to certain columns can be done through the subset.</strong><br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">print</span> <span class="string">"Data size before filtering:"</span></span><br><span class="line"><span class="keyword">print</span> df.shape</span><br><span class="line"></span><br><span class="line"><span class="keyword">print</span> <span class="string">"Drop all rows that have any NaN values:"</span></span><br><span class="line"><span class="keyword">print</span> <span class="string">"Data size after filtering:"</span></span><br><span class="line"><span class="keyword">print</span> df.dropna().shape</span><br><span class="line"><span class="keyword">print</span> df.dropna().head(<span class="number">10</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">print</span> <span class="string">"Drop only if all columns are NaN:"</span></span><br><span class="line"><span class="keyword">print</span> <span class="string">"Data size after filtering:"</span></span><br><span class="line"><span class="keyword">print</span> df.dropna(how=<span class="string">'all'</span>).shape</span><br><span class="line"><span class="keyword">print</span> df.dropna(how=<span class="string">'all'</span>).head(<span class="number">10</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">print</span> <span class="string">"Drop rows who do not have at least six values that are not NaN"</span></span><br><span class="line"><span class="keyword">print</span> <span class="string">"Data size after filtering:"</span></span><br><span class="line"><span class="keyword">print</span> df.dropna(thresh=<span class="number">6</span>).shape</span><br><span class="line"><span class="keyword">print</span> df.dropna(thresh=<span class="number">6</span>).head(<span class="number">10</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">print</span> <span class="string">"Drop only if NaN in specific column:"</span></span><br><span class="line"><span class="keyword">print</span> <span class="string">"Data size after filtering:"</span></span><br><span class="line"><span class="keyword">print</span> df.dropna(subset=[<span class="string">'closePrice'</span>]).shape</span><br><span class="line"><span class="keyword">print</span> df.dropna(subset=[<span class="string">'closePrice'</span>]).head(<span class="number">10</span>)</span><br></pre></td></tr></table></figure></p>
+<p><strong>Fillna (value=value) can specify the value to fill in the missing value</strong><br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">print</span> df.fillna(value=<span class="number">20150101</span>).head()</span><br></pre></td></tr></table></figure></p>
+<h4 id="5-3-data-manipulation"><a href="#5-3-data-manipulation" class="headerlink" title="5.3 data manipulation"></a>5.3 data manipulation</h4><p><strong>The class functions of # Series and DataFrame provide a number of functions, such as mean(), sum(), etc., specifying 0 by column and 1 by row:</strong><br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">df = raw_data[[<span class="string">'secID'</span>, <span class="string">'tradeDate'</span>, <span class="string">'secShortName'</span>, <span class="string">'openPrice'</span>, <span class="string">'highestPrice'</span>, <span class="string">'lowestPrice'</span>, <span class="string">'closePrice'</span>, <span class="string">'turnoverVol'</span>]]</span><br><span class="line"><span class="keyword">print</span> df.mean(<span class="number">0</span>)</span><br></pre></td></tr></table></figure></p>
+<p><strong>The value_counts function can easily count the frequency:</strong><br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">print</span> df[<span class="string">'closePrice'</span>].value_counts().head()</span><br></pre></td></tr></table></figure></p>
+<p><strong>In panda, Series can call the map function to apply a function to each element, DataFrame can call the apply function to apply a function to each column (row), and applymap to apply a function to each element. The function can be a user-defined lambda function or an existing function. The following example shows the adjustment of closing price to the [0, 1] range:</strong><br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">print</span> df[[<span class="string">'closePrice'</span>]].apply(<span class="keyword">lambda</span> x: (x - x.min()) / (x.max() - x.min())).head()</span><br></pre></td></tr></table></figure></p>
+<p><strong>Using append, you can add an element after a Series, and a line after the DataFrame:</strong><br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">dat1 = df[[<span class="string">'secID'</span>, <span class="string">'tradeDate'</span>, <span class="string">'closePrice'</span>]].head()</span><br><span class="line">dat2 = df[[<span class="string">'secID'</span>, <span class="string">'tradeDate'</span>, <span class="string">'closePrice'</span>]].iloc[<span class="number">2</span>]</span><br><span class="line"><span class="keyword">print</span> <span class="string">"Before appending:"</span></span><br><span class="line"><span class="keyword">print</span> dat1</span><br><span class="line">dat = dat1.append(dat2, ignore_index=<span class="literal">True</span>)</span><br><span class="line"><span class="keyword">print</span> <span class="string">"After appending:"</span></span><br><span class="line"><span class="keyword">print</span> dat</span><br></pre></td></tr></table></figure></p>
+<p><strong>DataFrame can be merged as in SQL. In the previous article, we introduced the method of creating DataFrame using the concat function, which is a way of merging. Another way to use the merge function is to specify which columns to merge by. The following example shows how to merge data by security ID and trading day:</strong><br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">dat1 = df[[<span class="string">'secID'</span>, <span class="string">'tradeDate'</span>, <span class="string">'closePrice'</span>]]</span><br><span class="line">dat2 = df[[<span class="string">'secID'</span>, <span class="string">'tradeDate'</span>, <span class="string">'turnoverVol'</span>]]</span><br><span class="line">dat = dat1.merge(dat2, on=[<span class="string">'secID'</span>, <span class="string">'tradeDate'</span>])</span><br><span class="line"><span class="keyword">print</span> <span class="string">"The first DataFrame:"</span></span><br><span class="line"><span class="keyword">print</span> dat1.head()</span><br><span class="line"><span class="keyword">print</span> <span class="string">"The second DataFrame:"</span></span><br><span class="line"><span class="keyword">print</span> dat2.head()</span><br><span class="line"><span class="keyword">print</span> <span class="string">"Merged DataFrame:"</span></span><br><span class="line"><span class="keyword">print</span> dat.head()</span><br></pre></td></tr></table></figure></p>
+<p><strong>Another powerful function of DataFrame is groupby, which can easily deal with data grouping. It can average the opening price, maximum price, minimum price, closing price and trading volume of ten stocks in one month in 2015:</strong><br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">df_grp = df.groupby(<span class="string">'secID'</span>)</span><br><span class="line">grp_mean = df_grp.mean()</span><br><span class="line"><span class="keyword">print</span> grp_mean</span><br></pre></td></tr></table></figure></p>
+<p><strong>If you want to get the latest data for each stock, what should you do? Drop_duplicates accomplishes this by sorting the data by date, followed by the security ID:</strong><br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">df2 = df.sort(columns=[<span class="string">'secID'</span>, <span class="string">'tradeDate'</span>], ascending=[<span class="literal">True</span>, <span class="literal">False</span>])</span><br><span class="line"><span class="keyword">print</span> df2.drop_duplicates(subset=<span class="string">'secID'</span>)</span><br></pre></td></tr></table></figure></p>
+<p><strong>To preserve the oldest data, you can take the last record in descending order by specifying take_last=True (the default value is False, take the first record) :</strong><br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">print</span> df2.drop_duplicates(subset=<span class="string">'secID'</span>, take_last=<span class="literal">True</span>)</span><br></pre></td></tr></table></figure></p>
+<p><strong>Data visualization</strong><br><strong>In the following example, the closing price of sinopec in January is used for drawing. Set_index (‘tradeDate’)[‘closePrice’] means that the column of ‘tradeDate’ of DataFrame is used as the index. The column of ‘closePrice’ is used as the value of Series.</strong><br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">dat = df[df[<span class="string">'secID'</span>] == <span class="string">'600028.XSHG'</span>].set_index(<span class="string">'tradeDate'</span>)[<span class="string">'closePrice'</span>]</span><br><span class="line">dat.plot(title=<span class="string">"Close Price of SINOPEC (600028) during Jan, 2015"</span>)</span><br></pre></td></tr></table></figure></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      
+      
+      
+      
+        
+      
+
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+  
+    <a href="/2019/03/29/project/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">ABOUT THE PROJECT</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+<!-- Table of Contents -->
+
+</section>
+        
+      </div>
+      
+      <footer id="footer">
+  
+
+  <div class="container">
+      	<div class="row">
+	      <!-- <p> Powered by <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="https://github.com/iTimeTraveler/hexo-theme-hiker" target="_blank">Hexo-theme-hiker</a> </p> -->
+	      <p id="copyRightEn">Copyright &copy; 2019 Lam All Rights Reserved.</p>
+
+	      
+  		   	<p id="copyRightCn">Lam hold copyright</p>
+  		   
+		</div>
+
+
+  </div>
+</footer>
+
+
+<!-- min height -->
+
+<script>
+    var wrapdiv = document.getElementById("wrap");
+    var contentdiv = document.getElementById("content");
+    var allheader = document.getElementById("allheader");
+
+    wrapdiv.style.minHeight = document.body.offsetHeight + "px";
+    if (allheader != null) {
+      contentdiv.style.minHeight = document.body.offsetHeight - allheader.offsetHeight - document.getElementById("footer").offsetHeight + "px";
+    } else {
+      contentdiv.style.minHeight = document.body.offsetHeight - document.getElementById("footer").offsetHeight + "px";
+    }
+</script>
+
+    </div>
+    <!-- <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+    <a href="/about" class="mobile-nav-link">About</a>
+  
+</nav> -->
+    
+
+<!-- mathjax config similar to math.stackexchange -->
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      }
+    });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for(i=0; i < all.length; i += 1) {
+            all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+    });
+</script>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/scripts.js"></script>
+
+
+
+
+  <script src="/js/dialog.js"></script>
+
+
+
+
+
+
+
+
+	<div style="display: none;">
+    <script src="https://s95.cnzz.com/z_stat.php?id=1260716016&web_id=1260716016" language="JavaScript"></script>
+  </div>
+
+
+
+
+
+
+
+
+  </div>
+
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title" id="myModalLabel">设置</h2>
+      </div>
+      <hr style="margin-top:0px; margin-bottom:0px; width:80%; border-top: 3px solid #000;">
+      <hr style="margin-top:2px; margin-bottom:0px; width:80%; border-top: 1px solid #000;">
+
+
+      <div class="modal-body">
+          <div style="margin:6px;">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" onclick="javascript:setFontSize();" aria-expanded="true" aria-controls="collapseOne">
+              正文字号大小
+            </a>
+          </div>
+          <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+          <div class="panel-body">
+            您已调整页面字体大小
+          </div>
+        </div>
+      
+
+
+          <div style="margin:6px;">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" onclick="javascript:setBackground();" aria-expanded="true" aria-controls="collapseTwo">
+              夜间护眼模式
+            </a>
+        </div>
+          <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+          <div class="panel-body">
+            夜间模式已经开启，再次单击按钮即可关闭 
+          </div>
+        </div>
+
+        <div>
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="true" aria-controls="collapseThree">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关 于&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+        </div>
+         <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+          <div class="panel-body">
+            Lam
+          </div>
+          <div class="panel-body">
+            Copyright © 2019 Lam All Rights Reserved.
+          </div>
+        </div>
+      </div>
+
+
+      <hr style="margin-top:0px; margin-bottom:0px; width:80%; border-top: 1px solid #000;">
+      <hr style="margin-top:2px; margin-bottom:0px; width:80%; border-top: 3px solid #000;">
+      <div class="modal-footer">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+      </div>
+    </div>
+  </div>
+</div>
+  
+  <a id="rocket" href="#top" class=""></a>
+  <script type="text/javascript" src="/js/totop.js?v=1.0.0" async=""></script>
+  
+</body>
+</html>
